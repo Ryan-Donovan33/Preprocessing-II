@@ -171,6 +171,7 @@ img {
 header {
   display: flex;
   justify-content: space-between;
+  border-bottom: 2px dashed #C0C0C0;
 }
 header div {
   display: flex;
@@ -186,6 +187,10 @@ header nav {
   padding: 2%;
   margin: 1%;
   font-size: 2rem;
+}
+header nav a {
+  text-decoration: none;
+  color: #212529;
 }
 .footer {
   width: 100%;
