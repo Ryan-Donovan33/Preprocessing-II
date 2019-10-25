@@ -185,8 +185,8 @@ header div {
 }
 @media (max-width: 500px) {
   header div {
+    justify-content: center;
     width: 100%;
-    text-align: center;
   }
 }
 header nav {
@@ -211,7 +211,7 @@ header nav a {
 @media (max-width: 500px) {
   header {
     flex-direction: column;
-    align-items: center;
+    width: 100%;
   }
 }
 .footer {
@@ -293,6 +293,8 @@ header nav a {
   .home .inverse-content {
     flex-direction: column-reverse;
     width: 100%;
+    padding: 3%;
+    margin: 3%;
   }
 }
 .home .content-destination {
@@ -306,8 +308,8 @@ header nav a {
   .home .content-destination {
     flex-direction: column;
     width: 100%;
-    padding: 1%;
-    margin: 1%;
+    padding: 3%;
+    margin: 3%;
   }
 }
 .home .content-pick {
@@ -333,6 +335,8 @@ header nav a {
 @media (max-width: 500px) {
   .home .content-pick .destination {
     width: 100%;
+    padding: 4%;
+    margin: 4%;
   }
 }
 @media (max-width: 500px) {
