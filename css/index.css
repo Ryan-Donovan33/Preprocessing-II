@@ -173,7 +173,6 @@ header {
   justify-content: space-between;
   align-items: none;
   border-bottom: 2px dashed #c0c0c0;
-  max-width: 800px;
 }
 header div {
   display: flex;
@@ -259,7 +258,7 @@ header nav a {
 }
 @media (max-width: 500px) {
   .home .content-section .text-content {
-    width: 100%;
+    width: 95%;
     padding: 2%;
     margin: 2%;
   }
