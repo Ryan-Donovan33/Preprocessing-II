@@ -9,7 +9,7 @@ header {
 		width: 50%;
 		.spacing(2%, 1%);
 
-		@media @mobile {
+		@media @mobile, @tablet {
 			justify-content: center;
 			width: 100%;
 		}
@@ -21,7 +21,7 @@ header {
 		.spacing(2%, 1%);
 		font-size: 2rem;
 
-		@media @mobile {
+		@media @mobile, @tablet {
 			justify-content: space-around;
 			width: 100%;
 		}
@@ -32,7 +32,7 @@ header {
 		}
 	}
 
-	@media @mobile {
+	@media @mobile, @tablet {
 		flex-direction: column;
 		width: 100%;
 	}
