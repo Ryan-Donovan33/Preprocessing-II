@@ -1,1 +1,25 @@
 // Mixins in here
+
+//use code from Codepen example fo Button if necessary
+
+.spacing(@p, @m) {
+	padding: @p;
+	margin: @m;
+}
+
+.flex-layout(@justify, @align) {
+	display: flex;
+	justify-content: @justify;
+	align-items: @align;
+}
+
+.custom-btn(@color, @bg-color) {
+	margin: 2%;
+	padding: 5%;
+	text-align: center;
+	color: @color;
+	background-color: @bg-color;
+	font-size: 2rem;
+	border-radius: 10px;
+	width: 75%;
+}

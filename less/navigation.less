@@ -1,1 +1,38 @@
 // Navigation Styles here
+header {
+	.flex-layout(space-between, none);
+	border-bottom: 2px dashed @navigation-border;
+
+	div {
+		.flex-layout(space-between, none);
+		width: 50%;
+		.spacing(2%, 1%);
+
+		@media @mobile, @tablet {
+			justify-content: center;
+			width: 100%;
+		}
+	}
+
+	nav {
+		.flex-layout(space-between, none);
+		width: 50%;
+		.spacing(2%, 1%);
+		font-size: 2rem;
+
+		@media @mobile, @tablet {
+			justify-content: space-around;
+			width: 100%;
+		}
+
+		a {
+			text-decoration: none;
+			color: @shark;
+		}
+	}
+
+	@media @mobile, @tablet {
+		flex-direction: column;
+		width: 100%;
+	}
+}
